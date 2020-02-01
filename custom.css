@@ -1,0 +1,178 @@
+/*general tag*/
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style-type: none;
+	list-style: none;
+}
+
+body{
+	font-family: "Century Gothic", "Futura", sans-serif;
+	color: #fff;
+	background-color: #f2f2f2;
+}
+
+button{
+	margin: 0 auto;
+}
+
+
+
+h1{
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 1.3em;
+}
+
+h2{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+p{
+	font-weight: normal;
+	font-size: 16px;
+}
+
+li{
+	text-align: center;
+}
+
+
+li a:hover{
+	color: #f2f2f2;
+	text-decoration: none;
+}
+
+
+
+
+
+/*general class*/
+
+.container{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+
+.backgroundorange{
+	background-color: #DB6D24;
+}
+
+.fullsize{
+	width: 100%;
+}
+
+.zeropadding{
+	padding-right: 0;
+	padding-left:0;
+}
+
+.float-right{
+	float: right;
+}
+
+
+
+
+/*verticalizzazioni*/
+
+
+
+.choose h1{
+	font-size: 3vw;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+.choose .secondary{
+	font-size: 2vw;
+}
+
+.choose .secondary span{
+	font-size: 1.5vw;
+	font-weight: normal;
+}
+
+.choose p{
+	font-size: 16px;
+	padding: 0;
+}
+
+.choose li div{
+	position: relative;
+	height: 200px;
+	margin-top: 1.8em;
+	margin-bottom: 1.8em;
+	padding: 0 40px;
+}
+
+.choose li div a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.choose li div a:hover, .choose li div a:hover i{
+	color: #000;
+	text-decoration: none;
+}
+
+.choose li div a:hover h2, .choose li div a:hover p{
+	color: #000;
+	text-decoration: none;
+}
+
+.choose li div a span{
+	position: absolute;
+	bottom: 10px;
+	right: 70px;
+	left: 70px;
+}
+
+
+
+
+
+/*media query*/
+
+@media only screen and (max-width: 991px) {
+
+    .clear{
+    	clear:both;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+   .choose p {
+        font-size: 14px;
+    }
+
+	.choose h1{
+    	font-size: 20px;
+    }
+
+    .choose .secondary{
+	font-size: 16px;
+	}
+
+	.choose .secondary span{
+	font-size: 14px;
+
+}
+
+   .choose li div{
+	height: auto;
+	}
+
+	.choose li div a span{
+	position: static;
+	}
+
+}

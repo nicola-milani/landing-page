@@ -1,0 +1,66 @@
+section{
+	overflow: hidden;
+}
+
+section div{
+	position: relative;
+	top: 80px;
+	opacity: 0;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+section h1{
+	position: relative;
+	top: 50px;
+	opacity: 0;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+section.active div, section.active h1{
+	top: 0;
+	opacity: 1;
+}
+
+#product section.active{
+	overflow: visible;
+}
+
+section.active#primo div{
+	top: 0;
+	opacity: 1;
+}
+
+section.active#secondo div{
+	top: 0;
+	opacity: 1;
+	-webkit-transition-delay: .2s;
+	transition-delay: .2s;
+}
+
+section.active#terzo div{
+	top: 0;
+	opacity: 1;
+	-webkit-transition-delay: .4s;
+	transition-delay: .4s;
+}
+
+section.active#quarto div{
+	top: 0;
+	opacity: 1;
+}
+
+section.active#quinto div{
+	top: 0;
+	opacity: 1;
+	-webkit-transition-delay: .2s;
+	transition-delay: .2s;
+}
+
+section.active#sesto div{
+	top: 0;
+	opacity: 1;
+	-webkit-transition-delay: .4s;
+	transition-delay: .4s;
+}
