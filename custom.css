@@ -61,7 +61,9 @@ li a:hover{
 .backgroundorange{
 	background-color: #DB6D24;
 }
-
+.backgroundblue{
+	background-color: rgb(36, 121, 219);
+}
 .fullsize{
 	width: 100%;
 }
